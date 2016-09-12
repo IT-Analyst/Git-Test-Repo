@@ -1,7 +1,7 @@
 #  Git Test Repo
 
 
-Mit diesem Git-Repositorie soll der Umgang mit git gelernt werden.
+Mit diesem Git-Repository soll der Umgang mit git gelernt werden.
 
 * Kolnen des Repo
 
@@ -42,3 +42,18 @@ Mit diesem Git-Repositorie soll der Umgang mit git gelernt werden.
   Mit `git push origin master` werden die lokalen Änderungen zum Server geschickt. 'master' bezeichnet hierbei den Entwicklungszweig.
 
     ![git-push](https://cloud.githubusercontent.com/assets/9308836/18434846/fa48b200-78ef-11e6-9bb8-d35bb93223fa.jpg)
+
+
+* Änderungen vom Server holen
+
+  Mit `git fetch` werden Änderungen vom Server abgefragt ohne die lokal Arbeitskopie zu verändern. Durch den Befehl `git pull origin master` werden die Änderungen vom Server abgefragt und mit dem lokalen Arbeitsverzeichnis verschmolzen.
+
+  Ausfüren von `git log` (oneline) -> `git fetch` -> `git log` (oneline)
+
+ ![git-fetch](https://cloud.githubusercontent.com/assets/9308836/18435240/4e01c51a-78f2-11e6-89d9-7673c1b82c49.jpg)
+
+ ![screenshot 1473682072](https://cloud.githubusercontent.com/assets/9308836/18435252/652f61ac-78f2-11e6-83e0-5e7d55ae4b3f.jpg)
+
+ Ausfüren von `git log` (oneline) -> `git pull` -> `git log` (oneline)
+
+ ![screenshot 1473682252](https://cloud.githubusercontent.com/assets/9308836/18435347/d55d7842-78f2-11e6-8e62-34c5a34c4c1d.jpg)
