@@ -1,4 +1,4 @@
-#  Git Test Repo
+#  Git Test Repository
 
 
 Mit diesem Git-Repository soll der Umgang mit git gelernt werden.
@@ -13,7 +13,7 @@ Mit diesem Git-Repository soll der Umgang mit git gelernt werden.
 
   Erstellen Sie mit einem Editor einen neue Datei. Zum Beispiel `vorname_nachname.txt`
 
-* Status anzeigen
+* Git Status anzeigen
 
   `git status`
 
@@ -31,7 +31,7 @@ Mit diesem Git-Repository soll der Umgang mit git gelernt werden.
 
   ![git-commit](https://cloud.githubusercontent.com/assets/9308836/18434841/f6e42bee-78ef-11e6-8d2b-dd463ebaf4ab.jpg)
 
-* Git History anzeigen
+* Git-History anzeigen
 
   `git log`
 
