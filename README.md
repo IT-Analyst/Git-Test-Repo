@@ -13,7 +13,7 @@ Mit diesem Git-Repository soll der Umgang mit git gelernt werden.
 
   Erstellen Sie mit einem Editor einen neue Datei. Zum Beispiel `vorname_nachname.txt`
 
-* Status anzeigen
+* Status anzeigen lassen
 
   `git status`
 
@@ -31,7 +31,7 @@ Mit diesem Git-Repository soll der Umgang mit git gelernt werden.
 
   ![git-commit](https://cloud.githubusercontent.com/assets/9308836/18434841/f6e42bee-78ef-11e6-8d2b-dd463ebaf4ab.jpg)
 
-* Git History anzeigen
+* Git History anzeigen lassen
 
   `git log`
 
@@ -57,3 +57,5 @@ Mit diesem Git-Repository soll der Umgang mit git gelernt werden.
  Ausfüren von `git log` (oneline) -> `git pull` -> `git log` (oneline)
 
  ![screenshot 1473682252](https://cloud.githubusercontent.com/assets/9308836/18435347/d55d7842-78f2-11e6-8e62-34c5a34c4c1d.jpg)
+
+ Änderung in master um mergetool zu zeigen
