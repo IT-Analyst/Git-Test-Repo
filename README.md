@@ -57,3 +57,13 @@ Mit diesem Git-Repository soll der Umgang mit git gelernt werden.
  Ausfüren von `git log` (oneline) -> `git pull` -> `git log` (oneline)
 
  ![screenshot 1473682252](https://cloud.githubusercontent.com/assets/9308836/18435347/d55d7842-78f2-11e6-8e62-34c5a34c4c1d.jpg)
+
+* Erzeugen eines neuen Zweiges
+
+  `git branch <name>` erstellt einen neuen lokalen Zweig.
+
+  Mit `git branch --list` können alle Zweige angezeigt werden. Der aktuell aktive Branch ist mit einem Stern makiert.
+
+  ![screenshot 1473754851](https://cloud.githubusercontent.com/assets/9308836/18466407/e6d70aa8-799b-11e6-9050-f7814fc1566b.jpg)
+
+  Durch Ausführen von `git checkout develop` können wir den Branch wecheln.
