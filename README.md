@@ -1,4 +1,4 @@
-#  Git Test Repo
+#  Git Test Repository
 
 
 Mit diesem Git-Repository soll der Umgang mit git gelernt werden.
@@ -13,7 +13,7 @@ Mit diesem Git-Repository soll der Umgang mit git gelernt werden.
 
   Erstellen Sie mit einem Editor einen neue Datei. Zum Beispiel `vorname_nachname.txt`
 
-* Status anzeigen lassen
+* Status anzeigen
 
   `git status`
 
@@ -31,7 +31,7 @@ Mit diesem Git-Repository soll der Umgang mit git gelernt werden.
 
   ![git-commit](https://cloud.githubusercontent.com/assets/9308836/18434841/f6e42bee-78ef-11e6-8d2b-dd463ebaf4ab.jpg)
 
-* Git History anzeigen lassen
+* Git History anzeigen
 
   `git log`
 
@@ -58,4 +58,12 @@ Mit diesem Git-Repository soll der Umgang mit git gelernt werden.
 
  ![screenshot 1473682252](https://cloud.githubusercontent.com/assets/9308836/18435347/d55d7842-78f2-11e6-8e62-34c5a34c4c1d.jpg)
 
- Änderung in master um mergetool zu zeigen
+* Erzeugen eines neuen Zweiges
+
+  `git branch <name>` erstellt einen neuen lokalen Zweig.
+
+  Mit `git branch --list` können alle Zweige angezeigt werden. Der aktuell aktive Branch ist mit einem Stern makiert.
+
+  ![screenshot 1473754851](https://cloud.githubusercontent.com/assets/9308836/18466407/e6d70aa8-799b-11e6-9050-f7814fc1566b.jpg)
+
+  Durch Ausführen von `git checkout develop` können wir den Branch wecheln.
