@@ -1,7 +1,7 @@
 #  Git Test Repository
 
 
-Mit diesem Git-Repository soll der Umgang mit git gelernt werden. Es können beibig Dateien hinzugefügt und verändert werden (mit Ausnahem der README.md).
+Mit diesem Git-Repository soll der Umgang mit git gelernt werden. Es können beliebig Dateien hinzugefügt und verändert werden.
 
 * Klonen des Repo
 
@@ -46,7 +46,7 @@ Mit diesem Git-Repository soll der Umgang mit git gelernt werden. Es können bei
 
 * Änderungen vom Server holen
 
-  Mit `git fetch` werden Änderungen vom Server abgefragt ohne die lokal Arbeitskopie zu verändern. Durch den Befehl `git pull origin master` werden die Änderungen vom Server abgefragt und mit dem lokalen Arbeitsverzeichnis verschmolzen.
+  Mit `git fetch` werden Änderungen vom Server abgefragt ohne die lokale Arbeitskopie zu verändern. Durch den Befehl `git pull origin master` werden die Änderungen vom Server abgefragt und mit dem lokalen Arbeitsverzeichnis verschmolzen.
 
   Ausfüren von `git log` (oneline) -> `git fetch` -> `git log` (oneline)
 
@@ -54,7 +54,7 @@ Mit diesem Git-Repository soll der Umgang mit git gelernt werden. Es können bei
 
  ![screenshot 1473682072](https://cloud.githubusercontent.com/assets/9308836/18435252/652f61ac-78f2-11e6-83e0-5e7d55ae4b3f.jpg)
 
- Ausfüren von `git log` (oneline) -> `git pull` -> `git log` (oneline)
+ Ausführen von `git log` (oneline) -> `git pull` -> `git log` (oneline)
 
  ![screenshot 1473682252](https://cloud.githubusercontent.com/assets/9308836/18435347/d55d7842-78f2-11e6-8e62-34c5a34c4c1d.jpg)
 
@@ -62,7 +62,7 @@ Mit diesem Git-Repository soll der Umgang mit git gelernt werden. Es können bei
 
   `git branch <name>` erstellt einen neuen lokalen Zweig.
 
-  Mit `git branch --list` können alle Zweige angezeigt werden. Der aktuell aktive Branch ist mit einem Stern makiert.
+  Mit `git branch --list` können alle Zweige angezeigt werden. Der aktuell aktive Branch ist mit einem Stern markiert.
 
   ![screenshot 1473754851](https://cloud.githubusercontent.com/assets/9308836/18466407/e6d70aa8-799b-11e6-9050-f7814fc1566b.jpg)
 
@@ -76,7 +76,7 @@ Mit diesem Git-Repository soll der Umgang mit git gelernt werden. Es können bei
 
   ![screenshot 1473769008](https://cloud.githubusercontent.com/assets/9308836/18473437/4219643a-79bd-11e6-8374-538604bc02a5.jpg)
 
-  Das Mergetool P4Merge Zeigt einem 4 Bereiche an: Zeignummer 1, den gemeinsamen Ursprung, Zwiegnummer 2 und das Ergebnis.
+  Das Mergetool P4Merge Zeigt einem 4 Bereiche an: Zeig 1, den gemeinsamen Ursprung, Zweig 2 und das Ergebnis.
 
   ![screenshot 1473768864](https://cloud.githubusercontent.com/assets/9308836/18473434/3ef57c44-79bd-11e6-9bcb-1a8c2865d1ec.jpg)
 
