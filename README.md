@@ -11,7 +11,7 @@ Mit diesem Git-Repository soll der Umgang mit git gelernt werden. Es können bel
 
 * Eine neue Datei erzeugen
 
-  Erstellen Sie mit einem Editor einen neue Datei. Zum Beispiel `vorname_nachname.txt`
+  Erstellen Sie mit einem Editor eine neue Datei. Zum Beispiel `vorname_nachname.txt`
 
 * Status anzeigen
 
@@ -37,7 +37,7 @@ Mit diesem Git-Repository soll der Umgang mit git gelernt werden. Es können bel
 
   ![git-log](https://cloud.githubusercontent.com/assets/9308836/18434842/f8b26a30-78ef-11e6-86ef-344621f41534.jpg)
 
-* Ändrungen dem Server bekannt machen
+* Änderungen dem Server bekannt machen
 
   Mit `git push origin master` werden die lokalen Änderungen zum Server geschickt. 'master' bezeichnet hierbei den Entwicklungszweig.
 
@@ -72,11 +72,11 @@ Mit diesem Git-Repository soll der Umgang mit git gelernt werden. Es können bel
 
   Wenn wir uns im master-branch befinden und `git merge develop` aufrufen werden die Änderungen aus dem develop-branch in den Hauptzweig eingefügt. Hier wurde jetzt absichtlich ein Konflikt herbeigeführt, der nicht automatisch durch Git aufgelöst werden kann.
 
-  Mit `git mergetool` wird das eingestellte Werzeug geöffnet. Hier jetzt P4Megre. Wenn die Datei im Mergetool gespeichert wird und das Werkzeug geschlossen wird, werden die bearbeiteten Dateien für den nächsten Commit vorgemerkt (Ist in der Gitconfig trustExitCode = false eingestellt wird noch einen Datei name.orig angelegt).
+  Mit `git mergetool` wird das eingestellte Werzeug geöffnet. Hier jetzt P4Merge. Wenn die Datei im Mergetool gespeichert wird und das Werkzeug geschlossen wird, werden die bearbeiteten Dateien für den nächsten Commit vorgemerkt (Ist in der Gitconfig trustExitCode = false eingestellt wird noch einen Datei name.orig angelegt).
 
   ![screenshot 1473769008](https://cloud.githubusercontent.com/assets/9308836/18473437/4219643a-79bd-11e6-8374-538604bc02a5.jpg)
 
-  Das Mergetool P4Merge Zeigt einem 4 Bereiche an: Zeig 1, den gemeinsamen Ursprung, Zweig 2 und das Ergebnis.
+  Das Mergetool P4Merge zeigt 4 Bereiche an: Zweig 1, den gemeinsamen Ursprung, Zweig 2 und das Ergebnis.
 
   ![screenshot 1473768864](https://cloud.githubusercontent.com/assets/9308836/18473434/3ef57c44-79bd-11e6-9bcb-1a8c2865d1ec.jpg)
 
@@ -88,6 +88,6 @@ Mit diesem Git-Repository soll der Umgang mit git gelernt werden. Es können bel
 
   ![screenshot 1473769092](https://cloud.githubusercontent.com/assets/9308836/18473657/6d293e6a-79be-11e6-841a-b79a0e1aee23.jpg)
 
-  Danach wurde mit `git checkout develop` wieder in den Develop-Zweig gewechselt und ein Fast-Forward Merge zum   Master-Zweig durch geführt. HEAD, develop und master sind auf dem selben Stand. Der Server (origin/master) steht noch weiter hinten.
+  Danach wurde mit `git checkout develop` wieder in den Develop-Zweig gewechselt und ein Fast-Forward Merge zum   Master-Zweig durchgeführt. HEAD, develop und master sind auf dem selben Stand. Der Server (origin/master) steht noch weiter hinten.
 
   ![screenshot 1473769151](https://cloud.githubusercontent.com/assets/9308836/18473659/6e92a642-79be-11e6-8766-18fa2dde89ca.jpg)
