@@ -91,3 +91,19 @@ Mit diesem Git-Repository soll der Umgang mit git gelernt werden. Es können bel
   Danach wurde mit `git checkout develop` wieder in den Develop-Zweig gewechselt und ein Fast-Forward Merge zum   Master-Zweig durchgeführt. HEAD, develop und master sind auf dem selben Stand. Der Server (origin/master) steht noch weiter hinten.
 
   ![screenshot 1473769151](https://cloud.githubusercontent.com/assets/9308836/18473659/6e92a642-79be-11e6-8766-18fa2dde89ca.jpg)
+
+* Git tags
+
+    Erstellen von tags:
+
+    `git tag -a <tag> [-m "Nachricht"]`
+
+    erzeugt einen tag auf dem aktuellen Commit.
+
+    `git tag -a V1.2 98fceb02`
+
+    fügt dem Commit '98fceb02' den tag 'V1.2' hinzu.
+
+    Mit `git push V1.2` wird der tag 'V1.2' dem Server bekannt gemacht.
+
+    Durch Ausführen von `git push origin --tags` können alle lokalen tags auf den Server geschoben werden.
