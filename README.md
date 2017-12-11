@@ -1,5 +1,6 @@
 #  Git Test Repository
 
+Dies ist ein Test
 
 Mit diesem Git-Repository soll der Umgang mit git gelernt werden. Es können beliebig Dateien hinzugefügt und verändert werden.
 
